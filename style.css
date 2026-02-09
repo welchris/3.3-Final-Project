@@ -128,6 +128,7 @@ nav {
     justify-content: space-between;
     max-width: 1200px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .nav__logo {
@@ -1384,6 +1385,14 @@ MOBILE RESPONSIVENESS ↓
     padding: 80px 32px;
   }
 }
+
+@media (max-width: 1025px) {
+  .nav__links--list {  
+    display: none;
+  }
+
+
+
 @media (max-width: 768px) {
     .nav__links--list {
     display: none;
